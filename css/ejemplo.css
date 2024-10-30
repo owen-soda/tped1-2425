@@ -50,3 +50,7 @@ a {
     text-decoration: underline;
     font-weight: bold;
 }
+
+ul {
+    list-style: none;
+}
