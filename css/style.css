@@ -1,20 +1,19 @@
 body{
     font-family: Verdana, Tahoma, sans-serif;
-    padding: 100px; 
+    padding: 50px; 
     
 }
 
 h1 {
     font-family: Verdana, Tahoma, sans-serif;
-    font-weight: lighter;
+    font-weight: bolder;
     font-size: 40px;
-    text-align: center;
     color: rgb(255, 129, 150);
     
 }
 
 .titulo {
-    padding: 100px;
+    padding: 50px;
 }
 
 
@@ -25,8 +24,17 @@ p {
 
 a {
     color: black;
-    text-decoration: underline;
-    font-weight: bold;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+a:visited {
+    color: rgb(175, 175, 175);
+}
+
+a:hover {
+    color: rgb(241, 82, 109);
+    font-weight: bolder;
 }
 
 ul {
